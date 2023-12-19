@@ -14,6 +14,8 @@ set -eu
 : ${BUILDKITD_FLAGS=}
 : ${ROOTLESSKIT=rootlesskit}
 
+
+echo $BUILDCTL_CONNECT_RETRIES_MAX
 # $tmp holds the following files:
 # * pid
 # * addr
